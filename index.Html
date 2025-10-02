@@ -73,11 +73,13 @@
     </div>
 
     <!-- روابط التواصل -->
-    <div class="grid" style="margin-top:10px">
-      <a href="https://wa.me/966580202121" target="_blank" rel="noopener">WhatsApp</a>
-      <a href="https://mail.google.com/mail/?view=cm&to=alghamdirinadm@gmail.com&su=Job%20Inquiry&body=Hello%20Rinad," target="_blank" rel="noopener">Email (Gmail)</a>
-      <a href="https://www.linkedin.com/in/rinad-alghamdi-3967b1245/" target="_blank" rel="noopener">LinkedIn</a>
-    </div>
-  </div>
+   <form class="space-y-3" action="mailto:alghamdirinadm@gmail.com" method="POST" enctype="text/plain">
+  <input type="text" name="name" placeholder="Your name" class="w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2" />
+  <input type="email" name="email" placeholder="Your email" class="w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2" />
+  <textarea name="message" placeholder="Message" rows="4" class="w-full rounded-xl bg-white/5 border border-white/10 px-3 py-2"></textarea>
+  <button type="submit" class="px-4 py-2 rounded-xl bg-cyan-400/20 border border-cyan-400/30 text-cyan-200">Send</button>
+</form>
+```
+
 </body>
 </html>
